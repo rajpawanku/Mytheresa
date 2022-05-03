@@ -1,0 +1,67 @@
+#navbar{
+    height: 400px;
+    width: 100%;
+    border: 1px solid red;
+}
+#navfir{
+    height: auto;
+    width: 100%;
+    border: 1px solid black;
+     display: flex; 
+     
+}
+#navmen{
+    display: flex;
+    margin-left: 18%;
+    height: auto;
+    width: 12%;
+    border: 1px solid teal;
+    justify-content: space-around;
+}
+.p{
+    font-size: 14px;
+    font-family:"Century Gothic",
+     "Gill Sans", Helvetica, Arial;
+     color: #000000;
+     font-weight: 400;
+ }
+
+#navacc{
+    display: flex;
+    margin-left: 20%;
+    height: auto;
+    width: 25%;
+    border: 1px solid pink;
+    justify-content: space-around;
+}
+.p1{
+    font-family:Arial, Helvetica, sans-serif; 
+    color: #000000;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#navthir{
+    margin-top: 70px;
+   border: 1px solid red;
+   height: 150px;
+   width: 100%;
+   text-align: center;
+  
+  
+}
+#imgmyth{
+ width: 300px;
+ /* display: inline-block; */
+ 
+}
+#navshop{
+    border: 1px solid black;
+    height: 50px;
+    width: 200px;
+    display: inline-block;
+
+}
+.p2{
+    justify-content: end;
+}
