@@ -80,6 +80,7 @@ loginData = (e)=>{
     }
     if(count>0){
         alert('login successful',count)
+        window.location.href='./index.html'
     }else{
         alert('Invalid credential',count)
     }
