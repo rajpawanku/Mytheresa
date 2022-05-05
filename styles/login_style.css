@@ -10,7 +10,7 @@
 
 #sub1{
     width: 100%;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     /* height: 400px; */
     display: flex;
     margin: auto;
