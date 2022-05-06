@@ -1,67 +1,83 @@
 #navbar{
-    height: 400px;
+    height:auto;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 #navfir{
     height: auto;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
      display: flex; 
-     
 }
 #navmen{
     display: flex;
-    margin-left: 18%;
-    height: auto;
-    width: 12%;
-    border: 1px solid teal;
+    margin-left: 7%;
+    height: 45px;
+    width: 250px;
+     /* border: 1px solid teal;  */
     justify-content: space-around;
 }
 .p{
     font-size: 14px;
     font-family:"Century Gothic",
      "Gill Sans", Helvetica, Arial;
-     color: #000000;
-     font-weight: 400;
+     color: #757575;
+     font-weight: 400;    
  }
 
 #navacc{
     display: flex;
-    margin-left: 20%;
-    height: auto;
-    width: 25%;
-    border: 1px solid pink;
+    margin-left: 27%;
+    height: 35px;
+    width: 40%;
+    margin-top: 10px;
+     /* border: 1px solid pink;  */
     justify-content: space-around;
 }
 .p1{
     font-family:Arial, Helvetica, sans-serif; 
-    color: #000000;
+    color: #757575;
     font-size: 12px;
     font-weight: 700;
 }
 
 #navthir{
     margin-top: 70px;
-   border: 1px solid red;
-   height: 150px;
+    /* border: 1px solid red;  */
+   height: 80px;
    width: 100%;
    text-align: center;
-  
-  
+   display: flex;
+}
+#imgmy{
+     /* border: 1px solid blue;  */
+    width: 300px;
+    height: 50px;
+    margin-left: 35%;
+    /* display: flex; */
 }
 #imgmyth{
  width: 300px;
- /* display: inline-block; */
+
  
 }
-#navshop{
-    border: 1px solid black;
+ #navshop{
+    /* border: 1px solid black; */
     height: 50px;
-    width: 200px;
-    display: inline-block;
+    width: 180px;
+    margin-left: 23%;
+    margin-top: 13px;
+     /* display: inline-block; 
+    margin-left: 40%; */
 
-}
+} 
 .p2{
     justify-content: end;
+    color: #757575;
+    font-size: 13px;
+    display: inline-block;
+}
+#bag
+{
+    margin-left: 10px;
 }
