@@ -1,0 +1,114 @@
+#first{
+    height: auto;
+    width: 78%;
+    margin: auto;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+}
+
+#heading{
+   text-align: center;
+   font-size: 23px;
+   color: #000000;
+}
+#second{
+/* border: 1px solid black; */
+width: 100%;
+height: auto;
+display: flex;
+}
+#second1{
+ /* border: 1px solid red; */
+ width: 52%;
+ height: auto;
+
+
+}
+#second2{
+ /* border: 1px solid teal; */
+ width: 50%;
+ height: auto;
+ margin-left: 10px; 
+
+}
+p{
+    color: #000000;
+}
+#secondfot{
+    height: auto;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;border-right: none;
+    width: 78%;
+    margin: auto;
+    margin-top: 5px;
+}
+h5{
+    text-align: center;
+}
+#img-play{
+    height: auto;
+    width: 40%;
+    margin-left: 36%;
+    /* border: 1px solid red; */
+}
+ img{
+    height: 60px;
+    width: 200px;
+} 
+#last{
+     border: 1px solid black;
+     border-top: none;
+     border-left: none; 
+     border-right: none;
+    width: 80%;
+     height: 300px;
+     display: flex;
+    margin: auto; 
+   
+}
+.lastdiv{
+    /* border: 1px solid teal; */
+    height: auto;
+    width:20%;
+    margin:auto;
+}
+.marin-btn{
+margin-bottom: -15px;
+}
+
+
+#paymentimg{
+    height: 95px;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+#paymentimg>img{
+    margin-top: 17px;
+    height: 27px;
+    width: 35px;
+    margin-left: 1px;
+}
+#delivered{
+    margin-left: 45%;
+    font-size: 18px;
+    color: #000000;
+}
+#dhl{
+    height: 40px;
+    width: 100px;
+    
+}
+.termof{
+    margin-left: 60%;
+    font-size: 20px;
+    line-height: 10px;
+    color: #757575;
+}
+.termof1{
+    margin-left: 55%;
+    font-size: 20px;
+    color: #757575;
+}

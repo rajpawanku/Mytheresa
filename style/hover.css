@@ -1,0 +1,264 @@
+
+#hover{
+    border: 0.1px solid #757575;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    height: 50px;
+    /* margin-left: 10%; */
+    width: auto;
+    
+}
+ /* .navechild2{
+    /* font-size: 43px; 
+    margin-top: 2%;
+    width: 12%;
+    height: 20px;
+    margin-left: 30%;
+}   */
+ /*Second Nave Baar  */
+  .nav2child2{    
+            margin-left: 12%;
+            margin-top: 7px;
+     } 
+ .myaccount{
+    position: relative;
+    display: inline-block;
+   
+ }
+ .myhover{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9; 
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    min-width: 280px;
+    margin-top: -5px;
+    margin-left: -100px;
+    height: 440px; 
+    /* border: 1px #757575; */
+    /* border-bottom: #757575; */
+    z-index: 1;
+ }
+ .myaccount:hover .myhover{
+     display: block;
+ }
+ .welcomdiv{
+     /* border: 1px solid red; */
+     height: 250px;
+     
+ }
+ .welcome{
+     text-align: center;
+     color: #757575;
+     font-size: 20px;
+    
+ }
+ .inputac{
+     margin-left: 26px;
+     padding: 8px 30px;
+     margin-top: 20px;
+ }
+ #login{
+     margin-top: 10px;
+     margin-left: 26px;
+     padding: 8px 34%;
+     background-color: black;
+     color: white;
+     cursor: pointer;
+ }
+ .pdeaitls{
+     text-align: center;
+     margin-left: 26px;
+     margin-right: 26px;
+     color: #757575;
+ }
+ .create{
+     margin-left: 25px;
+     padding: 8px 43px ;
+     background-color: black;
+     color: white;
+     cursor: pointer;
+ }
+ .dropdown{
+            position: relative;
+            display: inline-block;
+            margin-left: 0%;
+            margin-top: 12%;
+         }
+
+  .dropdown1{
+      position: relative;
+      display: inline-block;
+      margin-top: 1%;
+       /* margin-left: 20px;  */
+      padding: 0px 5px;
+  } 
+  .dropdown2{
+    position: relative;
+    display: inline-block;
+    margin-top: 1%;
+    /* margin-left: 0px; */
+    padding: 0px 8px;
+}      
+ .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9; 
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
+     rgba(0, 0, 0, 0.24) 0px 1px 2px;
+     min-width: 500px; 
+     height: 300px;
+     margin-top: 0px; 
+     z-index: 1;
+ }
+ .dropdown-content1{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
+     rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    min-width: 800px;
+    margin-left: -100px;
+    height: 355px;
+    z-index: 1;
+  
+ }
+ .dropdown-content2{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
+     rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    min-width: 800px;
+    height: 350px;
+    z-index: 1;
+  
+ }
+
+ .dropdown-content a{
+    color: #757575;
+     padding: 3px 40px; 
+     line-height: 22px;
+    text-decoration: none;
+ }
+ .dropdown-content1 a{
+     color: #757575;
+     text-decoration: none;
+     line-height: 22px; 
+     padding: 3px 40px ;
+ }
+ .dropdown-content2 a{
+    color: #757575;
+    text-decoration: none;
+    line-height: 22px;
+    padding: 3px 50px;
+ }
+
+ /* dropdown-content hover */
+  .dropdown-content a:hover,.dropdown-content1 a:hover,.dropdown-content2 a:hover  {
+     background-color: #f1f1f1
+    } 
+ 
+    
+/* dropdown hover */
+    .dropdown:hover .dropdown-content,.dropdown1:hover .dropdown-content1
+    ,.dropdown2:hover .dropdown-content2
+     {
+           display: block;
+    }
+    
+          /* drop down button */
+      /* .dropdown:hover .dropbtn 
+    {
+        background-color: #757575;
+       
+    }   */
+
+
+th{
+    font-size: 16px;
+    color: #757575;
+  
+}
+ td{
+ justify-content: space-around;    
+ font-size: 16px;                                                           
+ }
+
+ .chnge{
+  text-decoration: none;
+  color :#000000;
+  cursor: pointer;
+                                                                      
+ } 
+ .dropbtn1,.dropbtn{
+     /* border: 1px solid red; */
+          border: none;
+          background-color: white;
+          color: #757575;
+          font-size: 12px;
+          font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+     /* color: black; */
+ }
+
+ #gridimg{
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     gap: 10px;
+     height: 200px;
+     /* border: 1px solid black; */
+ }
+ #imgvv{
+     margin-left: 10px;
+     height: 205px;
+     width: 265px;
+ }
+ #divshow{
+     margin: auto;
+     height: 300px;
+     width: 500px;
+     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
+      rgba(0, 0, 0, 0.24) 0px 1px 2px;
+ }
+ #sale{
+     font-size: 100px; 
+     text-align: center;
+     color: red; 
+ }
+
+ #input{
+     margin-left: 21.5%;
+     height: 25px;
+     width: 240px;
+     margin-top: 8px;
+     border: none;
+ }
+ #span2{
+
+     margin-top: 13px;
+     cursor: pointer;
+ }
+
+
+ /* Hover center krne ke liye id use kiye hai left3 to 8 */
+
+ #left3{
+     margin-left: -200px;
+ }
+ #left4{
+    margin-left: -285px;
+}
+#left5{
+    margin-left: -350px;
+}
+#left6{
+    margin-left: -415px;
+}
+#left7{
+    margin-left: -513px;
+    
+}
+#left8{
+    margin-left: -340px;
+}
