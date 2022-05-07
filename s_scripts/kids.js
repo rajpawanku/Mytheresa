@@ -18,7 +18,7 @@ x.forEach((k, idx) => {
 let allButtons = document.querySelectorAll('button:not(.pre-btn, .nxt-btn)');
 allButtons.forEach(x => {
     x.addEventListener('click', () => {
-        window.location.href = '../s_pages/kids.html'
+        window.location.href = '../kids.html'
     })
 })
 
@@ -30,3 +30,6 @@ prices.forEach(x => {
 
 import navbar from '../components/nav.js';
 document.getElementById('main').innerHTML = navbar();
+
+import footer from '../components/footer.js';
+document.getElementById('footer').innerHTML = footer();

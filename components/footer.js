@@ -1,6 +1,6 @@
-function footer(){
+function footer() {
     let f =
-    `<div id="first">
+        `<div id="first">
     <p id="heading">MYTHERESA – WOMEN’S LUXURY AND DESIGNER FASHION</p>
 <p style="text-align: justify;font-size: 15px;">Mytheresa is the most-trusted source for finding the finest selection of luxurious womenswear.
      Our expert buying team travels the globe with a simple mission: to bring international fashion’s
@@ -86,7 +86,7 @@ Shop with us and discover why Mytheresa is your final destination for online sho
     vjqYplfzTXllbMb9x+uPqrfcJ+VzAFTredzmA6WDWuivnu0BCmoAdoT03xILPJjWuqlnzZ0HoCieqVdOKw+6TjNsf60JAExgbP+WMbmH0eEN2z/INkDFABTj2Rzvrvg+yqB
     SHZ/Hz2G+/JcAUB3dHOvz77rnTAc10uvpMh6bpp8v/mUAFFVxddPUdXu3We5Pp6dB1+m0Xx939lgfm2NDK7R/CQCCwPIwNXOMzx50tXRS9E0z9EvMXw4AI1AVxzdCTO950J
     XCDXlouI6mlJm/CgBAGNRdlSauBjDo7hoA9KwBQM8aAPSsAUDPGgD0rAFAz/oPGqGD1vMD8ikAAAAASUVORK5CYII=" alt="">
-    <img src="https://freepngimg.com/thumb/android/67006-app-play-google-android-store-free-clipart-hd.png" alt="">
+    <img id='play-store-icon' src="https://www.freepnglogos.com/uploads/play-store-logo-png/play-store-logo-nisi-filters-australia-11.png" alt="">
 </div>
 
 </div>

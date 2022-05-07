@@ -2,7 +2,7 @@ function navbar() {
   let x = `
     <div id="navfir">
         <div id="navmen">
-           <p class="p"> <a class="chnge" href="./women.html">WOMEN</a> </p>
+           <p class="p"> <a class="chnge" href="./index.html">WOMEN</a> </p>
            <p class="p"> <a class="chnge" href="./mens.html">MEN</a> </p>
            <p class="p"> <a class="chnge" href="./kids.html">KIDS</a> </p>
         </div>
