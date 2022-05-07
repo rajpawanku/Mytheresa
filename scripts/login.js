@@ -25,7 +25,7 @@ function singnup(e) {
     for (let i = 0; i < title.length; i++) {
         if (title[i].checked) {
             let title = title[i].value
-            console.log(title)
+            // console.log(title)
         }
     }
 
@@ -36,7 +36,7 @@ function singnup(e) {
     let confirm_pass = form.confirm_pass.value
     // console.log(first_name,email,pass)
     let p1 = new userData(first_name, last_name, email, pass)
-    console.log(p1)
+    // console.log(p1)
     arr.push(p1)
     // console.log(arr)
     if (first_name == "" || last_name == "" || email == "") {
@@ -79,9 +79,9 @@ loginData = (e)=>{
         }
     }
     if(count>0){
-        alert('login successful',count)
+        alert('login successful')
         window.location.href='./index.html'
     }else{
-        alert('Invalid credential',count)
+        alert('Invalid credential')
     }
 }
