@@ -1,5 +1,5 @@
 function navbar(){
-    let x = `<!--   1st navebar start      -->
+    let x = `
     <div id="navfir">
         <div id="navmen">
            <p class="p"> <a class="chnge" href="women.html">WOMEN</a> </p>
@@ -522,7 +522,7 @@ function navbar(){
 
 <button class="dropbtn1">  <a href="#" class="chnge">VACATION SHOP</a> </button>
 
-<div class="dropdown-content1" id="left7" style="height: 425px; width: 1000px;" >
+<div class="dropdown-content1" id="left7" style="height: 425px; width: 1140px;" >
 
 <table>
 

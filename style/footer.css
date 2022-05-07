@@ -9,6 +9,8 @@
 
 #heading{
    text-align: center;
+   font-size: 23px;
+   color: #000000;
 }
 #second{
 /* border: 1px solid black; */
@@ -48,7 +50,7 @@ h5{
 #img-play{
     height: auto;
     width: 40%;
-    margin: auto;
+    margin-left: 36%;
     /* border: 1px solid red; */
 }
  img{
@@ -78,14 +80,35 @@ margin-bottom: -15px;
 
 
 #paymentimg{
-    height: 70px;
+    height: 95px;
     width: 80%;
     margin: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 #paymentimg>img{
-    margin-top: 10px;
-
+    margin-top: 17px;
+    height: 27px;
+    width: 35px;
+    margin-left: 1px;
+}
+#delivered{
+    margin-left: 45%;
+    font-size: 18px;
+    color: #000000;
+}
+#dhl{
     height: 40px;
-    width: 40px;
+    width: 100px;
+    
+}
+.termof{
+    margin-left: 60%;
+    font-size: 20px;
+    line-height: 10px;
+    color: #757575;
+}
+.termof1{
+    margin-left: 55%;
+    font-size: 20px;
+    color: #757575;
 }

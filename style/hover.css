@@ -1,29 +1,27 @@
 
 #hover{
-    border: 1px solid #757575;
+    border: 0.1px solid #757575;
     border-top: none;
     border-left: none;
     border-right: none;
     display: flex;
     height: 50px;
-    width: 100%;
+    /* margin-left: 10%; */
+    width: auto;
     
 }
-/* #navechild2{
-    font-size: 13px;
-    margin-top: 5px;
+ /* .navechild2{
+    /* font-size: 43px; 
+    margin-top: 2%;
     width: 12%;
     height: 20px;
     margin-left: 30%;
-}  */
+}   */
  /*Second Nave Baar  */
- /* .nav2child2{
-            height: 50px;
-            width: 50%;
-           
-            margin-left: 0px;
-        
- } */
+  .nav2child2{    
+            margin-left: 12%;
+            margin-top: 7px;
+     } 
  .myaccount{
     position: relative;
     display: inline-block;
@@ -94,7 +92,7 @@
       display: inline-block;
       margin-top: 1%;
        /* margin-left: 20px;  */
-      padding: 0px 8px;
+      padding: 0px 5px;
   } 
   .dropdown2{
     position: relative;
@@ -107,7 +105,8 @@
     display: none;
     position: absolute;
     background-color: #f9f9f9; 
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
+     rgba(0, 0, 0, 0.24) 0px 1px 2px;
      min-width: 500px; 
      height: 300px;
      margin-top: 0px; 
@@ -117,7 +116,8 @@
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
+     rgba(0, 0, 0, 0.24) 0px 1px 2px;
     min-width: 800px;
     margin-left: -100px;
     height: 355px;
@@ -128,19 +128,19 @@
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
+     rgba(0, 0, 0, 0.24) 0px 1px 2px;
     min-width: 800px;
     height: 350px;
     z-index: 1;
   
  }
- 
+
  .dropdown-content a{
     color: #757575;
      padding: 3px 40px; 
      line-height: 22px;
     text-decoration: none;
-    /* display: block; */
  }
  .dropdown-content1 a{
      color: #757575;
@@ -169,10 +169,11 @@
     }
     
           /* drop down button */
-     /* .dropdown:hover .dropbtn 
+      /* .dropdown:hover .dropbtn 
     {
-        background-color: #e5f1e6;
-    }  */
+        background-color: #757575;
+       
+    }   */
 
 
 th{
@@ -187,7 +188,7 @@ th{
 
  .chnge{
   text-decoration: none;
-  color :#757575;
+  color :#000000;
   cursor: pointer;
                                                                       
  } 
@@ -211,13 +212,14 @@ th{
  #imgvv{
      margin-left: 10px;
      height: 205px;
-     width: 230px;
+     width: 265px;
  }
  #divshow{
      margin: auto;
      height: 300px;
      width: 500px;
-     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
+      rgba(0, 0, 0, 0.24) 0px 1px 2px;
  }
  #sale{
      font-size: 100px; 
@@ -226,7 +228,7 @@ th{
  }
 
  #input{
-     margin-left: 20%;
+     margin-left: 21.5%;
      height: 25px;
      width: 240px;
      margin-top: 8px;
