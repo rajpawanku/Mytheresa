@@ -129,7 +129,7 @@ Shop with us and discover why Mytheresa is your final destination for online sho
     <p class="marin-btn">Wish list </p>
     <p>Receive personal notifications</p>
     <p >Follow us on</p>
-    <img src="https://thumbs.dreamstime.com/t/set-popular-social-media-logos-
+    <img id="logo" src="https://thumbs.dreamstime.com/t/set-popular-social-media-logos-
     icons-instagram-facebook-twitter-linkedin-element-vector-gray-165659043.jpg" alt="">
 </div>
 
