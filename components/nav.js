@@ -27,15 +27,11 @@ function navbar() {
                   <p class="pdeaitls">Did You forget your password ?</p>  
                  <button class="create"><a class="chnge" style="color:white;" href="login.html">CREATE AN ACCOUNT</a>  </button>
                  </div>
-                      
-
              </div>   
             </div>
-           
             <p class="p1">My wishlist</p>
             <p class="p1">International | English</p>
         </div>
-
     </div>
 <!-- 1st nave end -->
     <div id="navthir">
