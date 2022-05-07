@@ -34,12 +34,13 @@ function singnup(e) {
     let email = form.email.value;
     let pass = form.pass.value;
     let confirm_pass = form.confirm_pass.value
+    // let check_box= form.check_box.value
     // console.log(first_name,email,pass)
     let p1 = new userData(first_name, last_name, email, pass)
     // console.log(p1)
     arr.push(p1)
     // console.log(arr)
-    if (first_name == "" || last_name == "" || email == "") {
+    if (first_name == "" || last_name == "" || email == "" ) {
         alert('Please select * marks fild')
     } 
     else if(pass != confirm_pass){
@@ -47,6 +48,8 @@ function singnup(e) {
     }else{
 
         localStorage.setItem('user_details', JSON.stringify(arr))
+        alert('Registration successful')
+        window.location.reload()
     }
 
 
@@ -72,6 +75,9 @@ loginData = (e)=>{
     let pass= document.getElementById('login_pass').value;
 
     let count=0
+    if(singnupData==null){
+        alert('no data available')
+    }else{
     for(let i=0; i<singnupData.length; i++){
         if(singnupData[i].email==email && singnupData[i].pass==pass){
             count++
@@ -83,5 +89,7 @@ loginData = (e)=>{
         window.location.href='./index.html'
     }else{
         alert('Invalid credential')
+        window.location.reload()
     }
+}
 }

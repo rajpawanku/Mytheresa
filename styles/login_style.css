@@ -1,11 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #66667d;
+}
+
+
+
 #container{
     width: 100%;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     /* height: 500px; */
 }
 
+
 #container>h3{
     text-align: center;
+    color: rgb(204, 122, 122);
+    font-size: small;
 }
 
 #sub1{
@@ -29,6 +40,11 @@
     margin-top: 10px;
     margin-left: 10px;
 }
+
+#check>input+p{
+    line-height: 30px;
+}
+
 
 
 
@@ -65,9 +81,21 @@ input,select{
     font-size: 20px;
 }
 
+
+
+#submit{
+    color: black;
+}
+
 button{
     width: 15%;
     height: 5vh;
+    background-color: black;
+    color: aliceblue;
+}
+
+button+p{
+    line-height: 30px;
 }
 
 #check{
