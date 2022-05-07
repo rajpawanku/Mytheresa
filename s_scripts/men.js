@@ -118,3 +118,6 @@ prices.forEach(x => {
     let amt = Math.ceil(Math.random() * 35).toFixed(2);
     x.innerText = '€' + amt;
 })
+
+import navbar from '../components/nav.js';
+document.getElementById('main').innerHTML = navbar();

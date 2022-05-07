@@ -6,114 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../s_styles/scroller.css">
-    <style>
-        #qwer {
-            width: 90%;
-            margin: auto;
-            height: auto;
-            border: 2px solid crimson;
-        }
-
-        #poster {
-            width: 90%;
-            margin: auto;
-        }
-
-        .cursor-pointer:hover {
-            cursor: pointer;
-        }
-
-        #poster>img {
-            width: 100%;
-            aspect-ratio: auto;
-        }
-
-        .text-center {
-            text-align: center;
-        }
-
-        .black-button {
-            border: none;
-            background-color: black;
-            padding: 10px 50px;
-            color: white;
-            margin-bottom: 30px;
-            margin-top: 0;
-        }
-
-        .cursor-pointer:hover {
-            cursor: pointer;
-        }
-
-        .spring-summer {
-            display: flex;
-            gap: 0;
-            min-height: 400px;
-            margin-top: 50px;
-            position: relative;
-        }
-
-        .spring {
-            width: 50%;
-            background-color: black;
-        }
-
-        .summer {
-            width: 50%;
-        }
-
-        .summer>img {
-            width: 100%;
-            height: 100%;
-            aspect-ratio: auto;
-        }
-
-        .absolute {
-            position: absolute;
-            margin-left: 8%;
-            color: white;
-            margin-top: 12%;
-        }
-
-        .absolute2 {
-            position: absolute;
-            margin-left: 55%;
-            color: white;
-            margin-top: 12%;
-
-        }
-
-        .white-button {
-            border: none;
-            background-color: rgb(255, 255, 255);
-            padding: 10px 50px;
-            color: rgb(0, 0, 0);
-            margin-bottom: 30px;
-            margin-top: 0;
-        }
-
-        .absolute>h1 {
-            font-size: 60px;
-            line-height: 25px;
-        }
-
-        .absolute>p {
-            font-size: 20px;
-            line-height: 10px;
-        }
-
-        .absolute>button {
-            margin-top: 20px;
-        }
-
-        .absolute>button:hover {
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="./s_styles/scroller.css">
+    <link rel="stylesheet" href="./s_styles/men.css">
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/hover.css">
 </head>
 
 <body>
+    <div id="main">
+    </div>
     <div id="qwer">
         <div id="poster" class="cursor-pointer">
             <img class='cursor-pointer'
@@ -125,8 +26,8 @@
         </h1>
         <!-- scroller starts -->
         <section class="product">
-            <button class="pre-btn"><img src="../s_icons/right.png" alt=""></button>
-            <button class="nxt-btn"><img src="../s_icons/right.png" alt=""></button>
+            <button class="pre-btn"><img src="./s_icons/right.png" alt=""></button>
+            <button class="nxt-btn"><img src="./s_icons/right.png" alt=""></button>
             <div class="product-container">
                 <div class="product-card">
                     <div class="product-image">
@@ -138,7 +39,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -151,7 +52,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -164,7 +65,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -177,7 +78,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -190,7 +91,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -203,7 +104,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -216,7 +117,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -229,7 +130,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -242,7 +143,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -255,7 +156,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
             </div>
@@ -281,8 +182,8 @@
         </div>
         <!-- scroller starts -->
         <section class="product">
-            <button class="pre-btn"><img src="../s_icons/right.png" alt=""></button>
-            <button class="nxt-btn"><img src="../s_icons/right.png" alt=""></button>
+            <button class="pre-btn"><img src="./s_icons/right.png" alt=""></button>
+            <button class="nxt-btn"><img src="./s_icons/right.png" alt=""></button>
             <div class="product-container">
                 <div class="product-card">
                     <div class="product-image">
@@ -294,7 +195,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -307,7 +208,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -320,7 +221,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -333,7 +234,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -346,7 +247,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -359,7 +260,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -372,7 +273,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -385,7 +286,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -398,7 +299,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -411,7 +312,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
             </div>
@@ -435,8 +336,8 @@
         </div>
         <!-- scroller starts -->
         <section class="product">
-            <button class="pre-btn"><img src="../s_icons/right.png" alt=""></button>
-            <button class="nxt-btn"><img src="../s_icons/right.png" alt=""></button>
+            <button class="pre-btn"><img src="./s_icons/right.png" alt=""></button>
+            <button class="nxt-btn"><img src="./s_icons/right.png" alt=""></button>
             <div class="product-container">
                 <div class="product-card">
                     <div class="product-image">
@@ -448,7 +349,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -461,7 +362,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -474,7 +375,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -487,7 +388,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -500,7 +401,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -513,7 +414,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -526,7 +427,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -539,7 +440,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -552,7 +453,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
                 <div class="product-card">
@@ -565,7 +466,7 @@
                     <div class="product-info">
                         <!-- <h2 class="product-brand">brand</h2> -->
                         <p class="product-short-description"></p>
-                        <span class="price">€20</span><span class="actual-price">$40</span> 
+                        <span class="price">€20</span><span class="actual-price">$40</span>
                     </div>
                 </div>
             </div>
@@ -577,5 +478,6 @@
 </body>
 
 </html>
-<script src="../s_scripts/scroller.js"></script>
-<script src="../s_scripts/men.js"></script>
+<script src="./s_scripts/scroller.js"></script>
+<script src="./s_scripts/men.js" type="module"></script>
+<script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>

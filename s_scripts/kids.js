@@ -1,4 +1,4 @@
-imgArr = [
+let imgArr = [
     "//img.mytheresa.com/media/static/raw/cms/l/SM_Monetate_Images/08_Carousel/Kids_SE_Carousel_SS22/May/Crosslink-Carousel_gucci_2x_20220501225102.jpg",
     "//img.mytheresa.com/media/static/raw/cms/l/SM_Monetate_Images/08_Carousel/Kids_SE_Carousel_SS22/May/Crosslink-Carousel_burberry-kids_2x_20220501225104.jpg",
     "//img.mytheresa.com/media/static/raw/cms/l/SM_Monetate_Images/08_Carousel/Kids_SE_Carousel_SS22/May/Crosslink-Carousel_zimmermann_2x_20220501225106.jpg",
@@ -25,5 +25,8 @@ allButtons.forEach(x => {
 let prices = document.querySelectorAll('.price');
 prices.forEach(x => {
     let amt = Math.ceil(Math.random() * 35).toFixed(2);
-    x.innerText = '€' + amt;
+    x.innerText = '€ ' + amt;
 })
+
+import navbar from '../components/nav.js';
+document.getElementById('main').innerHTML = navbar();
