@@ -1,0 +1,90 @@
+
+#paymentForm{
+width: 50%;
+height: auto;
+
+margin: auto;
+padding-left: 20px;
+font-size: 20px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+input{
+  width: 80%;
+  font-size: 20px;
+  padding: 2%;
+}h1{
+  text-align: center;
+  color: black;
+}
+#expdateAndCCV{
+  display: flex;
+  width: 94%;
+}#paymentSubmit{
+margin-bottom: 40px;
+color: white;
+background-color: rgb(2, 2, 10);
+padding: 3%;
+cursor: pointer;
+
+}
+#paymentSubmit:hover{
+  background-color: rgba(130, 132, 130, 0.95);
+}
+#secureimg >img{
+  width: 500px;
+}
+#otp_button
+{
+  border: none;
+  padding: .5em 13em;
+  margin-left: 200px;
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  background-color: rgb(245, 121, 121);
+  cursor: pointer;
+}
+#container{
+  display: flex;
+  width: 100%;
+  height: 70%;
+  /* border: 1px solid black; */
+}
+#box1{
+  width: 50%;
+ 
+  /* border: 1px solid red; */
+}
+#box2{
+  /* border: 1px solid red; */
+  width: 50%;
+}
+#box3{
+  width: 100%;
+  /* border: 1px solid black; */
+  height: 300px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+#box4{
+  width: 30%;
+  height: 150px;
+  /* border: 1px solid red; */
+  margin-top: 100px;
+}
+#box4 img{
+  width: 30px;
+  height: 30px;
+  
+}
+p,h3{
+  margin-top: -30px;
+}
+input{
+  margin-left: 50px;
+} 
+
+
+  

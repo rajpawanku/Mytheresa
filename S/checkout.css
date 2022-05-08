@@ -1,0 +1,120 @@
+#checkoutBox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  #checkoutForm {
+    width: 85%;
+    margin-left: 50px;
+    font-size: 20px;
+  }
+  input {
+    width: 100%;
+    font-size: 20px;
+    padding: 2%;
+  }
+  h1 {
+    color:black;
+    /* background-color: red; */
+    font-size: 26px;
+    margin-right: -25px;
+    padding: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #checkoutSubmit {
+    color: white;
+     background-color:black; 
+    cursor: pointer;
+  }
+
+  #checkoutSubmit:hover {
+     background-color:gray;
+  }
+  @media all  and (max-width:419px){
+   
+    #checkoutForm{
+     width: 100%;
+   }
+   #checkoutBox{
+    display: block;
+  
+}
+}
+#imgDiv{
+   margin-top: 40px;
+   padding: 4%;
+   margin-right: 100px;
+   width: 80%;
+   border: 1px solid black;
+}
+.h{
+   color: gray;
+   font-size: 22px;
+}
+#A{
+   font-size: 30px;
+}
+
+hr {
+   width: 100%;
+/* transform: rotate(90 degree); */
+margin-top: 60px;
+} 
+#pack{
+  display: flex;
+ 
+}
+#box3{
+width: 100%;
+/* border: 1px solid black; */
+height: 300px;
+display: flex;
+gap: 40px;
+justify-content: center;
+}
+#box4{
+width: 30%;
+height: 150px;
+/* border: 1px solid red; */
+margin-top: 100px;
+}
+#foot{
+width: 30px;
+height: 30px;
+
+}
+h3{
+margin-top: -20px;
+}
+.p{
+    margin-top: -30px;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+.AAA{
+ color: teal;
+}
+input{
+  margin-top: 30px;
+}
+.AA{
+    margin-top: 100px;
+    color: rgb(10, 13, 16);
+}
+
+#ship{
+    width: 100%;
+    height: 400px;
+}
+b{
+    text-align: center;
+    margin-top: 30px;
+}
+.s{
+    font-weight: bold;
+}
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
