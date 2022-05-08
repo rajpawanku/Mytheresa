@@ -54,7 +54,11 @@
             <h2>Total</h2>
             <h2 id="total">00</h2>
           </div>
-          <button type="button" class="btn btn-danger checkout-btn">
+          <button
+            onclick="gotoPayment()"
+            type="button"
+            class="btn btn-danger checkout-btn"
+          >
             proceed to check out
           </button>
           <hr />
@@ -82,6 +86,9 @@
 ></script>
 <script src="./cart.js" type="module"></script>
 <script>
+  function gotoPayment() {
+    window.location.href = "checkout.html";
+  }
   var btn = document
     .querySelector("button")
     .addEventListener("click", myfunction);
@@ -150,7 +157,7 @@
     document.querySelector("#cards_container").append(card_body, hrule);
   });
   function myfunction() {
-    window.location.href = "shippingaddress.html";
+    window.location.href = "checkout.html";
   }
 
   let total = 0;
