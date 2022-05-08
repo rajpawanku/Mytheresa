@@ -104,7 +104,7 @@ x.forEach((k, idx) => {
 let allButtons = document.querySelectorAll('button:not(.pre-btn, .nxt-btn)');
 allButtons.forEach(x => {
     x.addEventListener('click', () => {
-        window.location.href = '../mens.html'
+        window.location.href = './mensproduct.html'
     })
 })
 

@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@600&family=PT+Sans:wght@700&family=Roboto:wght@100;300&display=swap");
+
+#cart-main-div {
+  width: 80%;
+  margin: auto;
+  margin-bottom:20%;
+}
+#shopping-cart {
+  /* background-color:rgb(182, 182, 182); */
+  margin: auto;
+  height: 150px;
+  margin-top: 30px;
+  position: relative;
+}
+#h1-shopping,
+#h1-cart {
+  position: absolute;
+  font-size: 52px;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Inconsolata", monospace;
+  font-family: "PT Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+#h1-shopping {
+  top: 30px;
+  left: 10px;
+}
+#h1-cart {
+  top: 60px;
+  left: 10px;
+}
+.cart-item-list {
+  width: 70%;
+  height: 500px;
+  /* border:2px solid black; */
+}
+#price-details {
+  width: 30%;
+  height: 500px;
+  /* border:2px solid black; */
+}
+.checkout-btn {
+  background-color: rgb(255, 49, 90);
+  width: 100%;
+}
+.apply-coupon {
+  background-color: none;
+  color: orangered;
+  padding: 0 10px;
+  cursor: pointer;
+}
+#price-details {
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
+}
+.h2 + input {
+  margin: auto;
+}
+hr {
+  border: 2px solid gray;
+}
+.image_div {
+  width: 30%;
+}
+.image_div > img {
+  width: 100%;
+  border: 2px solid rgb(128, 128, 128, 0.5);
+  border-radius: 10px;
+}
+.details_div {
+  width: 70%;
+}
+
+.properties {
+  font-size: 20px;
+  font-weight: 500;
+}
+.values {
+  padding: 0;
+}
+.like_image {
+  width: 80%;
+  margin: auto;
+}
+.card_body > img {
+  width: 20%;
+}
+.values {
+  width: 70%;
+}
+#footer{
+    margin-top:30%;
+}
+
+#main{
+    margin-top:10px;
+}

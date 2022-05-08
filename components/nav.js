@@ -40,9 +40,9 @@ function navbar() {
         </div>
       
         <!--  -->
-        <div id="navshop">
+        <a id="navshop" href="./cart.html">
             <p class="p2">SHOPPING BAG</p> <span><i id="bag" class="fa-solid fa-bag-shopping"></i></span>
-        </div>
+        </a>
     </div>
 
 

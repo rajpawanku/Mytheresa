@@ -18,13 +18,13 @@ x.forEach((k, idx) => {
 let allButtons = document.querySelectorAll('button:not(.pre-btn, .nxt-btn)');
 allButtons.forEach(x => {
     x.addEventListener('click', () => {
-        window.location.href = '../kids.html'
+        window.location.href = './kidsproduct.html'
     })
 })
 
 let prices = document.querySelectorAll('.price');
 prices.forEach(x => {
-    let amt = Math.ceil(Math.random() * 35).toFixed(2);
+    let amt = Math.ceil(Math.random() * 35);
     x.innerText = '€ ' + amt;
 })
 
