@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Page</title>
+
+    
+
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="https://kit.fontawesome.com/b5da1e4b3a.js" crossorigin="anonymous"></script>
+    <style>
+    #paypalImg{
+       width: 50%;
+       margin: auto;
+       padding: 2%; 
+       height: 100px;
+    }
+    h1{
+        color: rgb(63, 167, 205);
+    }
+    h2{
+        font-size: 34px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #otpForm{
+        text-align: center;
+    }
+    #otpForm >input{
+font-size: 30px;
+    }
+    #otpSubmit{
+        padding: 5px 20px 5px 20px;
+        color: white;
+        background-color: rgb(238, 175, 16);
+        cursor: pointer;
+      border-radius: 5px;
+    }
+    #home_btn
+    {
+        border: 1px  red;
+        margin-left: 36.5em;
+        margin-bottom: 8em;
+        padding: 5px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+
+    #home_btn:hover
+    {
+        background-color: rgb(238, 98, 98);
+        transition: 0.8s ease;
+    }
+    </style>
+</head>
+<body>
+    <center><h2>Secure payment by:-</h1><br>
+        <img src="https://payg.in/assets/img/upi-payments.png" width=40%  alt=""></center>
+    
+    <form action=""id="otpForm" >
+        <h1>Please fill the otp sent on your registered Email-ID</h1>
+        <input type="text" id="otp_num" placeholder="Enter 6-digit OTP">
+           <input type="submit" id="otpSubmit" value="Continue">    
+      </form>
+      <button id="home_btn"><a href="../index.html"><i class="fa-solid fa-house-chimney"></i></a></button> 
+</body>
+<script>
+    document.querySelector("#otpForm").addEventListener("submit",otpFun);
+
+
+    function otpFun (){
+event.preventDefault();
+
+// 
+x=JSON.parse(localStorage.getItem("user_details"));
+    
+    for(let i=0; i<x.length; i++)
+    {
+        mail=x[i]["email"];
+    }
+
+
+num=document.querySelector('#otp_num').value;
+x=JSON.parse(localStorage.getItem('otp'));
+console.log(x,num)
+
+if(x==num)
+{
+    alert("Pament Successfull Your order has been successfully placed");
+    Email.send({
+    Host : "smtp.gmail.com",
+    Username : "writersboxx@gmail.com",
+    Password : "kbphbgfhmyjilrzw",
+    To : mail,
+    From : "writersboxx@gmail.com",
+    Subject : "Order Successfully Placed",
+    Body : `Transaction Successful:  Your Order number is: 100102. The detailed summary of your purchase and e-generated invoice will be sent to you via mail within 24 hours.                                                                          Thank You for Shopping with Us.`,
+}).then(
+  message => {
+      if(message=="OK")
+      {
+          alert("Check Your Registered Mail")
+      }
+  }
+);
+    
+}
+else{
+    alert("Oops.! Please check your Otp and try again");
+    document.querySelector("#otp_num").value="";
+}
+
+
+
+
+    
+
+   
+
+// window.location.href="../index.html"
+
+cartData=[];
+localStorage.setItem('cart1',JSON.stringify(cartData))
+
+    }
+</script>
+</html>
