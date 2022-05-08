@@ -2,14 +2,15 @@
 
 
 import navbar from "../components/nav.js"
-console.log(navbar)
+// console.log(navbar)
 document.getElementById('navbar').innerHTML=navbar()
 
 
 
 
-// import footer from "../components/footer.js"
+import footer from "../components/footer.js"
 // console.log(footer)
+document.getElementById("footer_login").innerHTML=footer()
 
 
 
