@@ -5,6 +5,7 @@
     padding: 5%;
 
 }
+
 body {font-family: Arial, Helvetica, sans-serif;}
 #products{
 display:flex;
@@ -74,4 +75,19 @@ img {
 .top{
 padding-bottom: 50px;
  border-bottom: 1px solid #dfdfdf;   
+}
+
+#paymentimg{
+    display:flex;
+    justify-content: center;
+    margin-top:40px;
+}
+
+p.termof, p.termof1{
+    text-align: right;
+    margin-right: 130px;
+}
+#img-play img{
+    width:338px;
+    height:131;
 }
