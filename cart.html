@@ -150,7 +150,7 @@
     document.querySelector("#cards_container").append(card_body, hrule);
   });
   function myfunction() {
-    window.location.href = "shippingaddress.html";
+    window.location.href = "checkout.html";
   }
 
   let total = 0;
@@ -158,8 +158,8 @@
     total = total + Number(elem.price);
   });
 
-  document.querySelector("#totalmrp").innerText = "₹ " + total;
-  document.querySelector("#total").innerText = "₹ " + total;
+  document.querySelector("#totalmrp").innerText = "€ " + total;
+  document.querySelector("#total").innerText = "€ " + total;
 
   document
     .querySelector(".apply-coupon")
@@ -174,8 +174,8 @@
     if (couponCode == "MASAI50" && couponApplied == 0) {
       total = total / 2;
       alert("coupon applied enjoy 50% OFF");
-      document.querySelector("#totalmrp").innerText = "₹ " + total;
-      document.querySelector("#total").innerText = "₹ " + total;
+      document.querySelector("#totalmrp").innerText = "€ " + total;
+      document.querySelector("#total").innerText = "€" + total;
       localStorage.setItem("payableAmount", JSON.stringify(total));
       couponApplied = 1;
     } else {
