@@ -1,0 +1,210 @@
+.mySlides {display: none;}
+.mySlides>img {vertical-align: middle;
+height:597px;
+width:100%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 82%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .next {
+    left:40%;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev{
+      left:1%;
+  }
+  #imagediv{
+      width:40%;
+  }
+  #contain{
+      display:flex;
+      /* height:600px; */
+      width:90%;
+      gap:120px;
+      margin: auto;
+      margin-top: 40px;
+  }
+  #detailsdiv{
+      width:50%;
+      padding-top:none;
+  }
+.prev>i{
+    font-size: 40px;
+}
+.next>i{
+    font-size: 40px;
+}
+.mdropbtn {
+    background-color:white;
+    padding: 8px 16px;
+    color: #757575;
+    font-size: 14px;
+    border:none;
+    width:60%;
+    cursor: pointer;
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .mdropbtn:hover{
+      color:black;
+  }
+  .mdropdown {
+    position: relative;
+    display: inline-block;
+    width:80%;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .mdropdown-content {
+    display: none;
+    position: relative;
+    width:99%;
+    color:grey;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .mdropdown-content p {
+    color: grey;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+  }
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+  hr{
+    border-top:#dfdfdf;
+  }
+  *{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+  }
+  #pname{
+      font-size: 22px;
+      font-weight: 400;
+  }
+  #pdes{
+      color:#757575;
+  }
+  #pprice{
+      font-weight: 700;
+      line-height: 25px;
+  }
+  #vat{
+      font-size: 12px;
+      color:#757575;
+  }
+  #highlight{
+      font-weight: 700;
+      line-height: 20px;
+      color:black;
+  }
+  .grey{
+      color:#757575;
+  }
+  .mdropdown i{
+      position:absolute;
+      right:0px;
+  }
+  button{
+      border:none;
+      padding:10px 30px;
+      width:40%;
+  }
+  select{
+      height:30px;
+      width:40%;
+  }
+  #addtocart{
+      background-color: black;
+      color:white;
+  }
+ #addtocart:hover{
+     background-color: rgb(49, 48, 48);
+     cursor: pointer;
+ }
+ #stylewith{
+     font-size: 20px;
+     font-weight: 400;
+     text-align: center;
+     margin-top: 30px;
+ }
+ #contain>a{
+     line-height: 25px;
+     color:#757575;
+     cursor: pointer;
+ }
+ #contain>a:hover{
+     color:black;
+ }
+ #stylewithcontain{
+     display:flex;
+     gap:20px;
+     width:90%;
+     margin:auto;
+ }
+ #stylewithcontain>div{
+    text-align: center;
+ }
+ #stylewithcontain>div>img{
+     width:100%;
+     height:398px;
+ }
+.bold{
+    font-weight: 700;
+}
+#also{
+    display:flex;
+    gap:20px;
+    width:85%;
+    height:500px;
+    text-align: center;
+    margin:auto;
+}
+#also>div>img{
+width:100%;
+height:398px;
+}
+#leftarrow>i{
+    position:absolute;
+    top:280%;
+    left:4%;
+    font-size: 40px;
+    cursor: pointer;
+}
+#rightarrow>i{
+    position:absolute;
+    top:280%;
+    right:4%;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
