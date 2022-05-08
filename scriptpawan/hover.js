@@ -1,13 +1,13 @@
 let singnupData=JSON.parse(localStorage.getItem('user_details'))
 console.log(singnupData)
 
-let login= document.getElementById('login').onclick= function(){
+document.getElementById('login').onclick= function(){
     loginData(event)
 }
 
-loginData = (e)=>{
+let loginData = (e)=>{
     e.preventDefault()
-    // console.log('amit')
+    console.log('amit')
     let email= document.getElementById('login_email').value;
     let pass= document.getElementById('login_pass').value;
 // console.log(email,pass)
