@@ -17,6 +17,7 @@
     text-align: center;
     color: rgb(204, 122, 122);
     font-size: small;
+    margin-top:5px;
 }
 
 #sub1{
@@ -88,7 +89,9 @@ input,select{
 
 
 #submit{
-    color: black;
+    color: white;
+    background-color:black;
+    padding:5px 20px 20px 20px;
 }
 
 button{
@@ -105,4 +108,8 @@ button+p{
 #check{
     display: flex;
 
+}
+
+#navfir{
+    margin-top:10px;
 }
