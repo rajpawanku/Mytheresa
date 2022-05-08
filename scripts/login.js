@@ -1,6 +1,24 @@
 // console.log('hello world')
 
 
+import navbar from "../components/nav.js"
+console.log(navbar)
+document.getElementById('navbar').innerHTML=navbar()
+
+
+
+
+// import footer from "../components/footer.js"
+// console.log(footer)
+
+
+
+
+
+
+
+
+
 //             singup part
 
 let form = document.getElementById('form')
@@ -34,6 +52,7 @@ function singnup(e) {
     let email = form.email.value;
     let pass = form.pass.value;
     let confirm_pass = form.confirm_pass.value
+
     // let check_box= form.check_box.value
     // console.log(first_name,email,pass)
     let p1 = new userData(first_name, last_name, email, pass)
@@ -62,17 +81,15 @@ function singnup(e) {
 
 
 let singnupData=JSON.parse(localStorage.getItem('user_details'))
-console.log(singnupData)
+// console.log(singnupData)
 
-let login= document.getElementById('login').onclick= function(){
-    loginData(event)
-}
+document.getElementById('loginfunc').addEventListener('click',loginData)
 
-loginData = (e)=>{
-    e.preventDefault()
+ function loginData(){
+    // event.preventDefault()
     console.log('amit')
-    let email= document.getElementById('login_email').value;
-    let pass= document.getElementById('login_pass').value;
+    let email= document.getElementById('login_email1').value;
+    let pass= document.getElementById('login_pass1').value;
 
     let count=0
     if(singnupData==null){
