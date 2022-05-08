@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./mystyle/product.css"/>
+  <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/hover.css">
+  <link rel="stylesheet" href="./style/footer.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div id="main"> </div>
+  <div id="sortline">
+    <p>The Finest Edit</p>
+    <p id="nproducts">products</p>
+      <select id="sortprod">
+        <option value="#">Sort By</option>
+        <option value="htl" id="htl">Price High to Low</option>
+        <option value="lth" id="lth">Price Low to High</option>
+      </select>
+    <!-- </div>
+  </div> -->
+  </div>
+  <hr>
+  <div id="contain">
+  <div id="filtermenu">
+    <p>The Finest Edit</p>
+  <div class="mdropdown">
+    <hr>
+    <button id="toggle1" class="mdropbtn" >Designer <i class="fa-solid fa-angle-right"></i></button>
+    <div id="designer" class="mdropdown-content">
+      <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+      <p id="auralee">AURALEE</p>
+      <p id="bottega">BOTTEGA VENETA</p>
+      <p id="chloe">CHLOE</p>
+      <p id="givenchy">GIVENCHY</a>
+      <p id="gucci">GUCCI</a>
+      <p id="nensi">NENSI DOJAKA</a>
+      <p id="oseree">OSÉREE</a>
+    </div>
+  </div>
+  <div class="mdropdown">
+    <hr>
+    <button id="toggle2" class="mdropbtn">Size <i class="fa-solid fa-angle-right"></i></button>
+    <div id="size" class="mdropdown-content">
+      <p>FR 32</p>
+      <p>FR 34</p>
+      <p>FR 36</p>
+      <p>FR 38</p>
+      <p>FR 40</p>
+      <p>FR 42</p>
+    </div>
+    </div>
+    <div class="mdropdown">
+      <hr id="g">
+      <button id="toggle3" class="mdropbtn">Colours <i class="fa-solid fa-angle-right"></i></button>
+      <div id="colors" class="mdropdown-content">
+        <p id="black">Black</p>
+        <p id="brown">Brown</p>
+        <p id="gold">Gold</p>
+        <p id="green">Green</p>
+        <p id="multi">Multicolor</p>
+        <p id="pink">Pink</p>
+        <p id="red">Red</p>
+      </div>
+    </div>
+      <div class="mdropdown">
+        <hr>
+        <button id="toggle4" class="mdropbtn">Pattern <i class="fa-solid fa-angle-right"></i></button>
+        <div id="pattern" class="mdropdown-content">
+          <p>Animal Print</p>
+          <p>Checked</p>
+          <p>Embellished</p>
+          <p>Embroidered</p>
+          <p>Floral</p>
+          <p>Patterned</p>
+          <p>Plain</p>
+          <p>Printed</p>
+          <p>Striped</p>
+        </div>
+        <hr>
+  </div>
+</div>
+<div id="productlist"></div>
+</div>
+<div id="divtoshow">
+  <h4>Available Sizes</h4>
+  <div id="grid">
+  <div>FR 32</div>
+  <div>FR 34</div>
+  <div>FR 36</div>
+  <div>FR 38</div>
+  <div>FR 40</div>
+  <div>FR 42</div>
+</div>
+</div>
+<div id="impot"> </div>
+</body>
+</html>
+<script src="./src/kidproduct.js" type="module"></script>
+<script src="./src/data.js"></script>
+<script src="./scriptpawan/navbar.js" type="module"> </script>
+<script src="./scriptpawan/hover.js"></script>
+<script src="./scriptpawan/footer.js" type="module"></script>

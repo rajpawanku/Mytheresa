@@ -51,7 +51,7 @@ Shop with us and discover why Mytheresa is your final destination for online sho
 <div id="secondfot">
 <h4 style="text-align: center;">SHOP WHENEVER, WHEREVER WITH THE APP</h4>
 <div id="img-play">
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYAAAACDCAMAAACz+jyXAAAAkFBMVEUAAAD39
+    <img id='play-store-icon' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYAAAACDCAMAAACz+jyXAAAAkFBMVEUAAAD39
     /f///8+Pj/7+/u1t7rz8/OrrrG3ubzNztCvsrXg4OIuLy/8/Pxvb2+goKCSkpKurq7o6OjW1tZnZ2c3NzdeXl54eHjHx8fU1NTc3Nzt7e3BwcG0tLSLi4sICAilpaUXF
     xdSUlIjIyOPj490dHRHR0dOTk6Dg4MbGxsyMjI9PT0aGhoQEBBaWlppamxmBkGyAAARe0lEQVR4nO2daWOiOhSGJUXKoqLggiyWal3aTjv//9/dJCeBhB3R0vHy
     fpgpsiScJ8s5SYCRMqhXjfrOwP9dA4CeNQDoWQOAnjUA6FkDgJ41AOhZA4CeNQDoWQOAnjUA6FkDgJ41AOhZA4CeNQDoWQOAnlUNQMVSFG3QtaImvBIAPtHxDS/
