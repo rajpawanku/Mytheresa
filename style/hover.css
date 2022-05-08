@@ -20,7 +20,8 @@
  /*Second Nave Baar  */
   .nav2child2{    
             margin-left: 12%;
-            margin-top: 7px;
+            margin-top: 1px;
+            /* border: 1px solid red; */
      } 
  .myaccount{
     position: relative;
@@ -228,11 +229,12 @@ th{
  }
 
  #input{
-     margin-left: 21.5%;
+     margin-left: 8%;
      height: 25px;
      width: 240px;
      margin-top: 8px;
      border: none;
+     /* border: 1px solid red; */
  }
  #span2{
 
