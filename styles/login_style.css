@@ -30,14 +30,18 @@
 
 }
 
+#login_p{
+    margin-bottom: 10px;
+}
+
 
 #radio{
     display: flex;
     text-align: center;
 }
 
-#first,#second,#third{
-    margin-top: 10px;
+#first_log,#second_log,#third_log{
+    margin-top: -10px;
     margin-left: 10px;
 }
 
