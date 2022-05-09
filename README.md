@@ -19,4 +19,17 @@ Features Implemented:
 5.Cart display
 6.Placing order with registered email,shipping address,and payment methods.
 
+How to use Mytheresa project:
+1.Open visual studio code
+2.Connect and add this project to your local folder by pulling the project
+3.Run index.html (Home/landing page) from VS code 
+OR
+4.Find Netlify link: https://marvelous-torrone-9bbbc5.netlify.app/index.html
 
+Contributors/Team members:
+1.Pawan Kumar
+2.Shubham Barore
+3.Rohit Dhatrak
+4.Sudarshan Shinde
+5.Amit Ghosh
+6.Shreeprada Bhat
