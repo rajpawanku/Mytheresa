@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/login_style.css">
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/hover.css">
+    <link rel="stylesheet" href="./style/footer.css">
+</head>
+
+<body>
+    <div id="navbar"></div>
+    <div id="container">
+        <h3>For a short time only: free shipping on all orders</h3>
+        <div id="sub1">
+            <div>
+                <h2>CREATE AN ACCOUNT</h2>
+                <!-- <h2>amit</h2> -->
+                <p id="login_p">Please enter the following information to create your account</p>
+                <form action="" id="form">
+
+                    <div id="radio">
+                        <input type="radio" id="first_log" name="title" value="first"> <p>Mr</p>
+                        <input type="radio" id="second_log" name="title" value="second"> <p>Mrs</p>
+                        <input type="radio" id="third_log" name="title" value="third"> <p>Mr</p>
+                    </div>
+
+                    <div id="details">
+                        <select>
+                            <option value="">academic title</option>
+                            <option value="">Dr</option>
+                            <option value="">Prof</option>
+                            <option value="">Prof. Dr.</option>
+                        </select>
+
+                        <input type="text" placeholder="first name *" id="first_name">
+                        <input type="text" placeholder="last name *" id="last_name">
+                        <input type="email" placeholder="email *" id="email">
+                        <input type="password" placeholder="password *" id="pass">
+                        <input type="password" placeholder="confirm pass *" id="confirm_pass">
+                        <div id="check">
+                            <input id="checkbox" type="checkbox">
+                            <p> From now on I will receive the Mytheresa Newsletter with selected
+                                fashion offers. If I do not wish to receive the newsletter, I can unsubscribe at any
+                                time
+                                free of charge at privacy@mytheresa.com.
+                                I agree that Mytheresa may insert analytical web beacons into the newsletter and create
+                                a
+                                personalized user profile based on my purchase and usage behavior, including sending a
+                                notification when I have placed something in the shopping cart. Further details can be
+                                found
+                                in our Privacy Policy, clause 5. I understand that I can revoke my consent at any time
+                                by
+                                emailing privacy@mytheresa.com.
+                            </p>
+                        </div>
+
+                    </div>
+                    <input id="submit" type="submit">
+                </form>
+            </div>
+
+
+         
+
+            <!-- login part -->
+            <div>
+                <h2>ALREADY REGISTERED?</h2>
+                <p>If you have an account with us, please log in.</p>
+                <input type="email" placeholder="email address" id="login_email1">
+                <input type="password" placeholder="password" id="login_pass1">
+                <button id="loginfunc">Login</button>
+                <p>At Mytheresa, we keep your information secure. As a result, it will be necessary for you to log in to
+                    your account before you are able to place an order or change the information on your account. You
+                    will be asked to log in to complete your order even if you have already been greeted on the website.
+                </p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div id="footer_login"></div>
+    <!-- <h6>Done</h6> -->
+</body>
+
+</html>
+<script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+<script src="./scripts/login.js" type="module"></script>
+<!-- <script src="./scripts/login.js"></script> -->

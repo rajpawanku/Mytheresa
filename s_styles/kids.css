@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#qwerty {
+  width: 90%;
+  min-height: 500px;
+  /* border: 2px solid black; */
+  margin: auto;
+  padding: 0 0 10px 0;
+  margin-top: 30px;
+}
+
+.kids_poster {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.kids_poster > img {
+  width: 49%;
+  aspect-ratio: 1/1;
+}
+
+.left_img_text {
+  position: absolute;
+  margin-left: 22%;
+  margin-top: 35%;
+}
+
+#girls_shopnow {
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 40%;
+}
+
+.right_img_text {
+  position: absolute;
+  margin-left: 72%;
+  margin-top: 35%;
+}
+
+#boys_shopnow {
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 40%;
+}
+
+.left_img_text,
+.right_img_text {
+  color: white;
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#boys_shopnow,
+#girls_shopnow {
+  border: none;
+  padding: 10px 20px;
+}
+
+#boys_shopnow:hover,
+#girls_shopnow:hover {
+  cursor: pointer;
+}
+
+#second_container {
+  display: flex;
+  justify-content: space-around;
+  min-height: 300px;
+  /* border: 2px solid green; */
+  margin-top: 30px;
+  position: relative;
+}
+#second_container > img {
+  width: 100%;
+}
+
+#second_container *:hover,
+#first_container *:hover,
+#third_container *:hover {
+  cursor: pointer;
+}
+
+#second_container > h1 {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 8%;
+  font-size: 60px;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#second_container > button {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 16%;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+}
+
+hr {
+  margin-top: 30px;
+  height: 2px;
+  color: gray;
+  background-color: gray;
+  margin-bottom: 30px;
+}
+
+.shoe_dress {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shoe_dress > img {
+  width: 49%;
+  aspect-ratio: auto;
+}
+
+.shoe_dress {
+  position: relative;
+}
+
+#third_container {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#kids_shoe {
+  position: absolute;
+  margin-left: 14%;
+  margin-top: 17%;
+  color: white;
+}
+
+#shop_shoe {
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 22%;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+}
+
+#kids_dress {
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 17%;
+  color: white;
+  font-size: 30px;
+}
+
+#shop_dress {
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 22%;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.black-button {
+  border: none;
+  background-color: black;
+  padding: 10px 50px;
+  cursor: pointer;
+  color: white;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./mystyle/productdetail.css"/>
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/hover.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+</head>
+<body>
+  <div id="main"> </div>
+    <div id="contain">
+        <div id="imagediv">
+            <div class="slideshow-container">
+                
+                <div class="mySlides">
+                  <img id="img1">
+                </div>
+                
+                <div class="mySlides">
+                  <img id="img2">
+                </div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)"><i class="bi bi-caret-left"></i></a>
+                <a class="next" onclick="plusSlides(1)"><i class="bi bi-caret-right"></i></a> 
+        </div>
+        <div id="detailsdiv">
+            <h2 id="pname"></h2>
+            <p id="pdes"></p>
+            <p id="pprice"></p>
+            <p id="vat">VAT exception. VAT not included.</p>
+            <p id="vat">item no. P00680195</p>
+            <select>
+                <option>Choose your Size</option>
+                <option>IT 36/3XS</option>
+                <option>IT 38/XXS</option>
+                <option>IT 40/XS-S</option>
+                <option>IT 42/S-M</option>
+                <option>IT 44/M-L</option>
+                <option>IT 46/L-XL</option>
+            </select>
+            <br><br>
+            <button id="addtocart">ADD TO SHOPPING BAG </button><br><br>
+            <button id="wishlist">ADD TO WISHLIST <i class="bi bi-heart"></i></button>
+            <p>Enjoy <span id="highlight">free shipping</span> on all orders over €800</p>
+            <p><i class="bi bi-truck"></i> <span id="highlight">Shipping Today</span></p>
+            <p class="grey">If placed within the next <span id="highlight">tomorrow hour and 1 minute,</span>  your order will be shipped today.</p>
+            <div class="mdropdown">
+                <hr>
+                <button id="toggle1" class="mdropbtn">Style Details<i class="fa-solid fa-angle-right"></i></button>
+                <div id="styledetail" class="mdropdown-content">
+                  <p>The Exclusive Lemon Collection from Dolce&Gabbana x Mytheresa merges poolside style with Italian glamour. This kaftan-inspired maxi dress is made from silk chiffon with an open back, cape sleeves, and a diaphanous skirt.</p>
+                      <p><ul>
+                     <li>material: 100% silk</li>
+                    <li>care instructions: dry clean</li>
+                    <li>self-ties</li>
+                    <li>Made in Italy</li>
+                  </ul></p>
+                </div>
+                </div>
+                <div class="mdropdown">
+                  <hr>
+                  <button id="toggle2" class="mdropbtn">Size & Fit <i class="fa-solid fa-angle-right"></i></button>
+                  <div id="sizefit" class="mdropdown-content">
+                        <p><ul>
+                       <li>True to size</li>
+                      <li>Low back</li>
+                      <li>Cinched waist</li>
+                      <li>Lightweight material</li>
+                      <li>The model seen in the picture is 178cm-5'10" and wearing a size IT 40</li>
+                    </ul></p>
+                  </div>
+                  </div>
+                  <div class="mdropdown">
+                    <hr>
+                    <button id="toggle3" class="mdropbtn">Delivery and Free returns <i class="fa-solid fa-angle-right"></i></button>
+                    <div id="delivery" class="mdropdown-content">
+                     <p>All orders are shipped worldwide via our affiliate courier DHL.Please see the shipping method as well as shipping costs and delivery times for your destination here.We gladly accept returns within 30 days of receipt free of charge. Read here.</p>
+                    </div>
+                    <hr>
+                    </div><br>
+                    <a>More questions about this item?</a><br>
+                     <a> See more from this Brand</a><br>
+                      <a>See more Clothing by this Brand</a><br>
+                     <a> See more dresses</a><br>
+        </div>
+    </div>
+    <hr>
+    <h2 id="stylewith">STYLE WITH</h2>
+    <div id="stylewithcontain">
+      <div>
+        <img src="https://img.mytheresa.com/1088/1088/66/jpeg/catalog/product/66/P00694516.jpg"/>
+        <h2>GUCCI</h2>
+        <p class="grey">GG Supreme and leather ankle boots</p>
+        <p class="bold">€ 775</p>
+      </div>
+      <div>
+        <img id="orgimg">
+      </div>
+      <div><img src="https://img.mytheresa.com/560/560/33/jpeg/catalog/product/55/P00676415_d2.jpg"/>
+        <h2>GUCCI</h2>
+        <p class="grey">Small Aviator Sunglasses</p>
+        <p class="bold">€ 639</p>
+      </div>
+      
+    </div>
+    <hr>
+    <h2 id="stylewith">YOU MIGHT ALSO LIKE</h2>
+    <div id="also">
+      <div><img src="https://img.mytheresa.com/2176/2176/90/jpeg/catalog/product/ea/P00680195.jpg"/>
+        <h2>DOLCE & GABBANA</h2>
+        <p class="grey">Printed silk chiffon maxi dress</p>
+      <p class="bold">€ 1,895</p>
+      </div>
+      <div><img src="https://img.mytheresa.com/1088/1088/66/jpeg/catalog/product/a6/P00613463.jpg"/>
+        <h2>GUCCI</h2>
+        <p class="grey">Tailored suit pants</p>
+      <p class="bold">€ 575</p>
+      </div>
+      <div><img src="https://img.mytheresa.com/1088/1088/66/jpeg/catalog/product/a1/P00650380.jpg"/>
+      <h2>CHLOE KIDS</h2>
+      <p class="grey">Hooded raincoat</p>
+      <p class="bold">€ 199</p></div>
+      <div id="leftarrow"><i class="bi bi-caret-left"></i></div>
+      <div id="rightarrow"><i class="bi bi-caret-right"></i></div>
+    </div>
+    <div id="impot"> </div>
+</body>
+</html>
+<script src="./src/productdetail.js"></script>
+<script src="./scriptpawan/navbar.js" type="module"> </script>
+<script src="./scriptpawan/hover.js"></script>
+<script src="./scriptpawan/footer.js" type="module"></script>

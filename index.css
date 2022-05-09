@@ -1,0 +1,93 @@
+.first {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5%;
+
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+#products{
+display:flex;
+
+}
+#products div{   
+width: 24%;
+margin:auto;
+}
+.img {
+    cursor: pointer;
+}
+
+.new_ar {
+    cursor: pointer;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    text-align: center;
+    padding: 40px 100px;
+    background-color: #f6f6f6;
+    margin-top: 36px;
+}
+
+#high1 {
+    display: flex;
+    text-align: center;
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 30px;
+}
+
+.button {
+
+    color: #fff;
+    background-color: #000;
+
+    padding: 7px 20px;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.left {
+    width: 49%;
+    float: left;
+  
+
+}
+
+
+.right {
+    width: 49%;
+    float: right;
+    margin-right: 1.6949152542%;
+}
+
+
+.high1 {
+    text-align: center;
+
+}
+
+img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+.top{
+padding-bottom: 50px;
+ border-bottom: 1px solid #dfdfdf;   
+}
+
+#paymentimg{
+    display:flex;
+    justify-content: center;
+    margin-top:40px;
+}
+
+p.termof, p.termof1{
+    text-align: right;
+    margin-right: 130px;
+}
+#img-play img{
+    width:338px;
+    height:131;
+}

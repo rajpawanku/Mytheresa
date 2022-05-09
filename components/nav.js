@@ -1,10 +1,10 @@
-function navbar(){
-    let x = `
+function navbar() {
+  let x = `
     <div id="navfir">
         <div id="navmen">
-           <p class="p"> <a class="chnge" href="women.html">WOMEN</a> </p>
-           <p class="p"> <a class="chnge" href="men.html">MEN</a> </p>
-           <p class="p"> <a class="chnge" href="kids.html">KIDS</a> </p>
+           <p class="p"> <a class="chnge" href="./index.html">WOMEN</a> </p>
+           <p class="p"> <a class="chnge" href="./mens.html">MEN</a> </p>
+           <p class="p"> <a class="chnge" href="./kids.html">KIDS</a> </p>
         </div>
 
         <div id="navacc">
@@ -27,15 +27,11 @@ function navbar(){
                   <p class="pdeaitls">Did You forget your password ?</p>  
                  <button class="create"><a class="chnge" style="color:white;" href="login.html">CREATE AN ACCOUNT</a>  </button>
                  </div>
-                      
-
              </div>   
             </div>
-           
             <p class="p1">My wishlist</p>
             <p class="p1">International | English</p>
         </div>
-
     </div>
 <!-- 1st nave end -->
     <div id="navthir">
@@ -44,9 +40,9 @@ function navbar(){
         </div>
       
         <!--  -->
-        <div id="navshop">
+        <a id="navshop" href="./cart.html">
             <p class="p2">SHOPPING BAG</p> <span><i id="bag" class="fa-solid fa-bag-shopping"></i></span>
-        </div>
+        </a>
     </div>
 
 
@@ -576,8 +572,8 @@ function navbar(){
 <span id="span2"><i class="fa-solid fa-magnifying-glass"></i></span>
 
 </div> `
-return x ;
-        
+  return x;
+
 }
 
-export default navbar
+export default navbar;

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #66667d;
+}
+
+
+
+#container{
+    width: 100%;
+    /* border: 1px solid gray; */
+    /* height: 500px; */
+}
+
+
+#container>h3{
+    text-align: center;
+    color: rgb(204, 122, 122);
+    font-size: small;
+    margin-top:5px;
+}
+
+#sub1{
+    width: 100%;
+    /* border: 1px solid red; */
+    /* height: 400px; */
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    /* text-align: center; */
+
+}
+
+#login_p{
+    margin-bottom: 10px;
+}
+
+
+#radio{
+    display: flex;
+    text-align: center;
+}
+
+#first_log,#second_log,#third_log{
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+#check>input+p{
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+#sub1>div:nth-child(1){
+    width: 45%;
+    /* height: 95%; */
+    /* border: 1px solid black; */
+    margin-left: 10px;
+}
+
+#sub1>div:nth-child(2){
+    width: 45%;
+    /* height: 95%; */
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 10px;
+}
+
+#details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+input,select{
+    height: 5vh;
+    font-size: 20px;
+}
+
+
+
+#submit{
+    color: white;
+    background-color:black;
+    padding:5px 20px 20px 20px;
+}
+
+button{
+    width: 15%;
+    height: 5vh;
+    background-color: black;
+    color: aliceblue;
+}
+
+button+p{
+    line-height: 30px;
+}
+
+#check{
+    display: flex;
+
+}
+
+#navfir{
+    margin-top:10px;
+}
