@@ -30,8 +30,10 @@ Our project is the clone of Mytheresa Website.
 <li>Run index.html (Home/landing page) from VS code </li>
 OR
 <li>Find Netlify link: https://marvelous-torrone-9bbbc5.netlify.app/index.html</li>
+</ol>
+
 <h3>Preview</h3>
-![Mytheresa](https://user-images.githubusercontent.com/25506229/188799423-c6b45a4d-baa6-46ae-936f-d3ce0ca22e40.PNG)
+<img src="https://user-images.githubusercontent.com/25506229/188799423-c6b45a4d-baa6-46ae-936f-d3ce0ca22e40.PNG"/>
 
 
 <h3>Contributors/Team members:</h3>
@@ -42,3 +44,4 @@ OR
 <li>Sudarshan Shinde</li>
 <li>Amit Ghosh</li>
 <li>Shreeprada Bhat</li>
+</ol>
